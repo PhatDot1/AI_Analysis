@@ -8,39 +8,39 @@ a. Adoption Analysis
 
 · What percentage of tasks used the AI tool, segmented by team?
 
-[See adoption breakdown](Q1_Technical_Analysis/A_Adoption_Analysis/readme.md#i-what-percentage-of-tasks-used-the-ai-tool-segmented-by-team)
+[Answer](Q1_Technical_Analysis/A_Adoption_Analysis/readme.md#i-what-percentage-of-tasks-used-the-ai-tool-segmented-by-team)
 
 · Which teams show the highest and lowest AI adoption rates?
 
-[Answer](Q1_Technical_Analysis/A_Adoption_Analysis/readme.md#ii. Which teams show the highest and lowest AI adoption rates?)
+[Answer](Q1_Technical_Analysis/A_Adoption_Analysis/readme.md#ii-which-teams-show-the-highest-and-lowest-ai-adoption-rates)
 
 · Identify any users or teams exhibiting stagnant or declining AI usage over time.
 
-[Answer](Q1_Technical_Analysis/A_Adoption_Analysis/readme.md#iii. Identify any users or teams exhibiting stagnant or declining AI usage over time)
+[Answer](Q1_Technical_Analysis/A_Adoption_Analysis/readme.md#iii-identify-any-users-or-teams-exhibiting-stagnant-or-declining-ai-usage-over-time)
 
 b. Efficiency Gains
 
 · Compare average task durations before and after AI adoption, by task_type and team.
 
-[Answer](Q1_Technical_Analysis/B_Efficiency_Gains/readme.md#i. Compare average task durations before and after AI)
+[Answer](Q1_Technical_Analysis/B_Efficiency_Gains/readme.md#i-compare-average-task-durations-before-and-after-ai)
 
 · Estimate the average percentage of time saved on tasks where the AI tool was used.
 
-[Answer](Q1_Technical_Analysis/B_Efficiency_Gains/readme.md#ii. Estimate average percentage of time saved on AI-assisted tasks)
+[Answer](Q1_Technical_Analysis/B_Efficiency_Gains/readme.md#ii-estimate-average-percentage-of-time-saved-on-ai-assisted-tasks)
 
 · Highlight any task_type with minimal or no performance improvement.
 
-[Answer](Q1_Technical_Analysis/B_Efficiency_Gains/readme.md#iii. Highlight task types with minimal or no performance improvement)
+[Answer](Q1_Technical_Analysis/B_Efficiency_Gains/readme.md#iii-highlight-task-types-with-minimal-or-no-performance-improvement)
 
 c. AI Quality Assessment
 
 · Report average AI prediction accuracy by task_type.
 
-[Answer](Q1_Technical_Analysis/C_AI_Quality_Assessment/readme.md#Average AI Prediction Accuracy by Task Type)  
+[Answer](Q1_Technical_Analysis/C_AI_Quality_Assessment/readme.md#average-ai-prediction-accuracy-by-task-type)  
 
 · Are there any outliers or concerning trends (e.g. accuracy below 0.70)?
 
-[Answer](Q1_Technical_Analysis/C_AI_Quality_Assessment/readme.md#Outliers and Concerning Trends)  
+[Answer](Q1_Technical_Analysis/C_AI_Quality_Assessment/readme.md#outliers-and-concerning-trends)  
 
 
 2. Commercial Insight

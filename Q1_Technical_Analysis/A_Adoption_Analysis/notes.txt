@@ -15,8 +15,6 @@ Exclusion of single-month users from the stagnant/decliner list
 
 Overall and per–task_type adoption (both across all teams and broken out by team)
 
-Not refactoring code as otherwise would be quite time consuming.
-
 i
 
 ii

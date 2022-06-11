@@ -53,9 +53,9 @@ a. Executive Summary (max 200 words)
 
 b. Commercial Interpretation
 
-· Based on your analysis, should hyperexponential continue investing in this AI tool?
+· Based on your analysis, should the company continue investing in this AI tool?
 
-[Answer](Q2_Commercial_Insights/B_Commercial_Interpretation/readme.md#1-should-hyperexponential-continue-investing-in-this-ai-tool) 
+[Answer](Q2_Commercial_Insights/B_Commercial_Interpretation/readme.md#1-should-the-company-continue-investing-in-this-ai-tool) 
 
 · Are there any areas where further investment should be reconsidered or redirected?
 

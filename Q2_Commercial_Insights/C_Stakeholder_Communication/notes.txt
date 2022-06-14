@@ -1,0 +1,100 @@
+Stakeholder Communication
+
+**How would you explain your findings to non-technical stakeholders (e.g. Head of Sales or People)?**  
+
+
+Ensure we have data on the actual benefits of this, efficiency is great but also financial is the bottom line! 
+Start with business impact and oppourtunity cost, i.e.
+Business impact first – “We’re saving each team 32–41% of their time, equivalent to ~1 full headcount in Sales and People.”
+
+Show the opportunity cost – “If accuracy stays at 80%, we unlock an extra $X in revenue per quarter; if it falls to 70%, that benefit could evaporate.”
+
+Anchor in key statistics - but make sure to keep them few
+a top line roi would be ideal
+
+Statistical significance of anomalies/outliers [or significant resouts!]
+any risk signal
+
+showing metrics and KPI's with current values in comparison to targets/thresholds 
+
+Address any emergent issues but also clearly highlight the risks that are not typically inherent in early stage data that need to be addressed before they emerge for exponential scalling issues. 
+Highlight key statistics, address statistical significance of outliers,  
+
+
+Explain the “hidden” AI risks in plain English, i.e.:
+Semantic drift (“model forgets context over long sessions”)
+
+Concept drift (“data patterns change over time—what works in January may fail by July”)
+
+If addressing emantic/concept drift, maybe introducing external statistics would be key here
+
+False-alarm risk (“if we chase every sub-70% run, 1 in 20 will be a false positive”)
+
+Lay out your “next three” actionables 
+
+One-page exec summary -> Analogies for technical concepts prove effective for me
+
+for things like showing graphs of specific teams performance, address plans to have this spread across teams
+
+
+
+
+
+**What metrics or visualisations would you highlight to ensure clarity and engagement?**  
+1. **Adoption Funnel Chart**  
+   - Shows % of users who tried the tool, adopted regularly, and became “power-users.”  
+   - Helps leaders see progression and pinpoint where adoption stalls.
+
+2. **Time-Saved Bar Graph**  
+   - Compares average minutes saved per task type (budget, forecast, hiring, quotes).  
+   - Visually conveys which workflows benefit most.
+
+3. **Accuracy Trend Line**  
+   - Plots monthly prediction accuracy with shaded confidence bands.  
+   - Highlights stability and flags the May outlier.
+
+4. **User Heatmap**  
+   - Highlights top and bottom performers by team.  
+   - Guides targeted coaching and celebrates champions.
+making sure to Put emphasis on steps to address bottom end - low/no movement adopters
+
+
+# AI Tool Performance Brief
+
+## 1. How would you explain your findings to non-technical stakeholders (e.g. Head of Sales or People)? 
+
+
+- **Start with Business Impact**  
+  Highlight headcount and dollars by converting time saved across teams into full-time equivalent headcount. 
+
+- **Tie Efficiency to Financial Value**  
+  Efficiencies importance stemps from its influence on the bottom line. If possible, it would be best to use financial data to turn time-saved percentages into dollars by mapping adoption and accuracy to revenue gains. For example "With 45–55% adoption and 77–80% accuracy, every dollar we spend delivers about $Y back in time savings and uplift.”
+
+- **Demonstrate Opportunity Cost**  
+  Map accuracy to revenue, ensuring stakeholders are aware the impact of performance slips (e.g. Sustaining 80% accuracy unlocks **$Z** in quarterly revenue, while a drop to 70% would forfeit that gain.)
+
+- **Highlight Key Risk Signals**  
+  Use statistical tests to prove outliers aren’t noise (e.g. Finance Quote Builder misses 70% accuracy in 37.5% of runs; p < 0.001).
+
+ - **Explain Hidden AI Risks with Supporting Data**  
+  Emphasize that strong early results can mask silent threats such as **concept drift**, where evolving real-world data gradually erodes accuracy. Cite external benchmarks, then link this back to business impact and recommend solutions such as automated drift detection and quarterly retraining.
+
+- **Next Steps & Action Items**  
+  Outline a roadmap: monitor flagged users weekly, deliver targeted coaching to stagnant cohorts, and hold quarterly reviews of adoption, accuracy, and drift to update thresholds and retraining schedules.  
+
+
+
+
+## 2. Key Metrics & Visualizations for Clarity  
+1. **Adoption Funnel Chart**  
+   - % Tried → Regular Users → Power-Users. Pinpoints drop-off and guides targeted training.  
+2. **Time-Saved Bar Graph**  
+   - Average minutes saved per task type (Budget, Forecast, Hiring, Quotes). Highlights top ROI workflows.  
+3. **Accuracy Trend Line**  
+   - Monthly prediction accuracy with shaded 95% confidence bands. Flags the May outlier and shows stability.  
+4. **Performance Heatmap**  
+   - Team × Task matrix of low-accuracy run rates. Directs coaching to bottom-quartile users and celebrates champions.  
+5. **Traffic-Light Scorecard**  
+   - Pair Metrics with Targets and Provide Visual Representations
+
+

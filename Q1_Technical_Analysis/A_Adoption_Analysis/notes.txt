@@ -1,0 +1,51 @@
+see v1.
+
+explain v1.
+
+Want to account for tenure, as, for example, a user who joined in March should not get any attribution for metrics like “declining” between January–February
+
+
+Want to add maximal context into resultant outputs, so one is not merely looking at the absolute metrics without allowing for consideration of what tasks may motivate less AI usage. etc.
+
+Also, if a users ai task usage is going from 100% to 100%, it cant be classed as stagnant by increasing their AI usage, and improvements would be governed by additional metrics like improving the AI tool they use, or the way they are using it. Not covered by this dataset
+
+Join_date filtering so users with only one active month aren’t flagged as ‘stagnant’
+
+Exclusion of single-month users from the stagnant/decliner list
+
+Overall and per–task_type adoption (both across all teams and broken out by team)
+
+Not refactoring code as otherwise would be quite time consuming.
+
+i
+
+ii
+
+iii
+
+115 users technically 'stagnant/declining' in usage
+How many stagnant, and how many declining?
+
+Stagnant:
+From which, we can see 13 are problematically stagnant, having never changed their usage, of these 11 are stangant at 0% usage, having not yet adopted AI into their workflow.
+users 1118, and 1164 stuck at 50, and 66.7% respectively being less problematic cases.
+[graph to show]
+
+
+think the important metric is the % of the persons AI tool usage for that month, rather than total minutes
+
+Declining:
+102 users declining in their average AI usage, but most have only had 1 declining month, making it a potential anomaly, and wanting further data before deeming it a significant problem. And again, 13 of which have declined for more than just 1 month. 
+
+I deemed this count a more important metric for noticing those who declined compared to something like the average month on month absolute percent change, because it would not be as skewing to those who adopted AI late AND MAKING SURE THOSE TO 
+
+ADD AUXILLIARY MONTH "PRE JAN" THAT IS 0% FOR ALL TO MAKE CALCULATIONS MORE FAIRAND MENTION HOW IT WAS ADDED TO ENSURE THOSE WHO ADOPT LATE'S METRICS ARE COMPARABLE AND MAKING SURE THOSE WHO STARTED OFF AT 100% ADOPTION ARENT FLAGGED AS SIGNIFICANTLY PROBLEMATIC!
+
+
+
+argue why this is important to consider, but also, why looking for declining users can also be unfair on those who were overly eager to adopt in their first month, and are subsequently settling down to find their optimal usage for their tasks at hand
+
+Consecutively declining:
+
+Consecutively stagnant:
+most concerning. users who have made no effort and at least 2 months of data since AI introduced, remaining at 0%

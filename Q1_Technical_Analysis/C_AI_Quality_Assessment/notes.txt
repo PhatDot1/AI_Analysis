@@ -1,0 +1,85 @@
+· Report average AI prediction accuracy by task_type.
+
+hiring_pipeline = 0.79
+
+budget_reconciliation = 0.77
+
+quote_builder = 0.79
+
+forecast_model = 0.80
+
+
+· Are there any outliers or concerning trends (e.g. accuracy below 0.70)?
+
+All tasks, and groups have averages much above the 70% mark, and similarly within the constraints of the current task parameters (length) there are no emerging trends that show any reason for any realistic execution to dip beneath the 70% mark. Any instances of accuracy going below the 70% mark requires granularity to the degree where instances become outliers. 
+
+All data points and users below 70% dont really have much of a common trend among them so is likely just expected sampling variation (common-cause noise) and best to keep monitoring until they become statistically significant for now
+
+
+No noticable impact of adoption rate on prediction accuracy across teams.
+No significant impact of task length across the board. some specific minor correlations in x, y - SEMANTIC DRIFT
+No significant impact on month on accuracy across the board, some specific minor correlations in x, y z - CONCEPT DRIFT
+So for our given parameters - task length, and adoption time so far, not a cocnern but important to keep monitoring these
+
+However, there are some significant differences in the tasks with % of results below 70% - as a result of both lower average performance and larger varience. 
+
+Highest percent of results below 70%
+Finance	quote_builder	37.5%
+
+[binomial test/chi-squared test to confirm that this group’s under-70 rate is genuinely higher than random noise / sampling variaiton] [[INSERT]]
+
+Followed by:
+Finance	hiring_pipeline	36%
+People	budget_reconciliation	32%
+Sales	budget_reconciliation	28%
+Sales	hiring_pipeline	27%
+
+By team, finance has the highest percent of resulte below 70:
+Finance	29%
+
+And by task, forecast model is significantly the least amount of results going below 70%:
+hiring_pipeline	28.440366972477065
+budget_reconciliation	27.536231884057973
+quote_builder	26.31578947368421
+forecast_model	18.045112781954884
+
+Outlier user analysis:
+For the 65 users with AI accuracy <70%
+27 are in finance
+18 are in people
+20 are in sales
+
+[PERFORM STATISTICAL ANALYSIS?]
+
+No noticable impact of adoption rate on prediction accuracy across teams.
+
+With AI models built from predictive frameworks, may expect performance to tend off with task length depending on the nature of the tool, i.e. if its a tool to be used for an entire workflow and not utilized in short bursts, like quantum decoherence, AI predictive models can lean off into abstract directions, as there is a scaling effect (describe and word this properly and scientifically) so I deemed it important to check the relationships between task duration and ai prediction accuracy as this would be a good potential candidate for emerging trends.
+
+[SEMANTIC DRIFT]
+
+Average task duration showing a negative correlation with Prediction Accuracy across finance and sales teams, but very minor (i.e. most significant case: finance team shows an increase in dak duration of 10 minutes can lead to an average prediction accuracy drop of 1% - but data too small to extrapolate for) - keep potentially keep in mind when scalling to very high duration tasks, but again, data is too small to extrapolate from.
+
+minor decreases over time 
+prediction accuracy over time for a couple of areas, most notably sales quote_builder droping by 11% from jan to april but up and down in between so looks like anomaly for now.
+
+[CONCEPT DRIFT]
+
+
+And looking out for duration vs average prediction accuracy on a more detailed level, we can see the most significantly influenced team and tasks:
+
+team task_type decimal_gradient percent_gradient
+People	budget_reconciliation	-17.27865497076024  prev /100
+People	forecast_model	-14.870841612717172   prev /100
+Finance	budget_reconciliation	-14.450998185118003   prev /100
+Finance	hiring_pipeline	-12.201123543339989   prev /100
+Sales	quote_builder	-11.090787595986116   prev /100
+
+So the most significant data point 1.7% per 10 additional minutes, which is again not highly concerning unless scaling up for a dramatically large task and again is typically only bad assuming the ai cant just be utilized in shorter bursts for covering sub-sections of the overarching task for a longer task workflow. But even in these cases im sure there are agentic frameworks/workflows that are designed to innately account for this that we can utilize to dampen such effects and have full ai workflows without concerns of this. - again, reword this to be proper and scientifically accurate etc. 
+
+And conversely we have:
+People	hiring_pipeline	21.787198669991668	21.787198669991668
+
+Wich suggests an increase with time, which could depend on utilization/more time = more effort/ many unknowns, write this up properly ig.
+
+
+And finally, addressing the 2025-05-01 with AI prediction 0.65, this is just an (anomololy? or outlier? i forgot which is proper term) as its only 1 data point, for a 35 minute task so cannot be used to represent the entire month or be deemed significant. 

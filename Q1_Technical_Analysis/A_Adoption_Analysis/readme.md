@@ -1,6 +1,11 @@
 ## Adoption Analysis
 
-This document summarizes the AI tool adoption and efficiency metrics for Q1–Q2 2025, following the methodology implemented in `adoption_analysis.py`.
+This readme.md summarizes the AI tool adoption and efficiency metrics following my full data analysis in `adoption_analysis.py`.
+
+To view the [Full Dashboard]((adoption_analysis.py)):
+```
+streamlit run Q1_Technical_Analysis/A_Adoption_Analysis/adoption_analysis.py
+```
 
 ---
 
@@ -58,8 +63,9 @@ This document summarizes the AI tool adoption and efficiency metrics for Q1–Q2
 | People  |   54.67 |   54.05 |   55.56 |   56.25 |             +1.58 |         +0.53 |
 | Sales   |   43.90 |   51.65 |   49.44 |   51.16 |             +7.26 |         +2.42 |
 
-*(See \[Insert team-level trend chart screenshot here])*
-The Finance team showed a significant drop from January to February, while People and Sales teams remained relatively stable or growing.
+![Team Adoption Trend](../../images/team_adoption_trend.png)
+
+The Finance team showed a noticable drop from January to February, while People and Sales teams remained relatively stable or growing.
 
 #### b) User-level analysis
 
@@ -81,12 +87,13 @@ We evaluate each user's **Avg MoM absolute % change** since their *first month o
 |    1082 | User 1082 | Finance |    Jan %    |              2 |               1 |        −50.0% |
 |    1146 | User 1146 | People  |    Feb %    |              2 |               1 |          0.0% |
 
-13 users meet the stricter criterion of multiple consecutive declines, but negating against inclines (which everyone has at least 1 since everyone started using these tools at 0% pre-january, we are left with 4 users with the consecutive declines outweighing the consecutive inclines)
-These users have more consecutive months of decline than growth since adoption began, indicating potential disengagement or shifting workflows.
+Thirteen users meet the stricter criterion of multiple consecutive declines. To focus on the most concerning cases, I then compared these declines against each user’s runs of consecutive increases in adoption (everyone has at least one, since adoption started at 0% before January). Only four users exhibited more consecutive declines than increases—suggesting potential disengagement or a shift in their workflows.
 
 ##### Consecutively Stagnant Users
 
-13 are problematically stagnant for 2+ months, having never changed their usage, of these 11 are stangant at 0% usage. Users 1118, and 1164 stagnant at 50, and 66.7% respectively being less problematic cases.
+13 users are problematically stagnant for 2+ months, having never changed their usage since first adoption, of these 11 are stangant at 0% usage. Users 1118, and 1164 stagnant at 50, and 66.7% respectively. For now being less problematic cases.
+
+Below is the table of the 11 users who have not yet adopted the AI after 2+ months of activity.
 
 | User ID | Name      | Team    | Data Months | Jan % | Feb % | Mar % | Apr % |
 | ------: | :-------- | :------ | ----------: | ----: | ----: | ----: | ----: |
@@ -104,21 +111,25 @@ These users have more consecutive months of decline than growth since adoption b
 
 These users have shown no AI usage in at least two months since introduction, highlighting candidates for targeted training or outreach.
 
-> **Totals**: 115 users are technically 'stagnant/declining'; 102 users have at least one month of decline (mostly one-month anomalies), and 13 users meet the stricter criterion of multiple consecutive declines. 13 users are problematically stagnant (never changed usage), of which 11 have 0% usage.
+> **Totals**: While 115 users are technically 'stagnant/declining'; 102 users have at least one month of decline (mostly one-month anomalies), and 13 users meet the stricter criterion of multiple consecutive declines. 13 users are problematically stagnant (never changed usage), of which 11 have 0% usage.
 
-*(Insert user-level bar chart or table screenshot here)*
+Below shows a bar chart of each users average month of month adoption chance since they first picked up the AI tooling:
+
+![Team Adoption Trend](../../images/user_adoption_growth_since_first_month.png)
+
+And the full user table, "Users: Monthly Adoption Δ-Metrics (Jan–Apr 2025)", can be viewed in the [dashboard.](adoption_analysis.py)
+
+> **Note:** It would also be important to evaluate this in conjunction with AI quality, as AI quality could be the reason why someone is stagnating or declining in their usage.
+
 
 ---
 
-IT WOULD ALSO BE IMPORTANT TO EVALUATE THIS IN CONJUNCTION LIKE AI QUALITY AS AI QUALITY COULD BE THE REASON WHY SOMEONE IS STAGNATING OR DECLINING ON THEIR USAGE?
-
 **Next Steps & Recommendations**
 
-1. **Targeted support** for the 13 consecutively stagnant users—consider personalized training sessions.
-2. **Monitor** the 13 users with multiple consecutive declines before flagging them as issues, to distinguish anomalies from true disengagement.
+1. **Monitor** the 4 + 13 users with multiple consecutive stagnations/declines before flagging them as issues, to distinguish anomalies from true disengagement.
+2. **Targeted support** If trend continues for the 13 consecutively stagnant users or emerges significantly for other users—consider reaching out to see if there are any issues - roadblocks, or personal motivations against, and can offer personalized training sessions.
 3. **Re-evaluate** adoption metrics quarterly, ensuring methodology remains fair to late adopters and full initial adopters.
 
 
 ---
 
-*End of report.*

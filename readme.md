@@ -1,10 +1,10 @@
 # Answer Directory:
 
-1. Technical Analysis
+## 1. Technical Analysis
 
 Submit your code and outputs (e.g. tables, visualisations) that address the following:
 
-a. Adoption Analysis
+### a. Adoption Analysis
 
 · What percentage of tasks used the AI tool, segmented by team?
 
@@ -18,7 +18,7 @@ a. Adoption Analysis
 
 [Answer](Q1_Technical_Analysis/A_Adoption_Analysis/readme.md#iii-identify-any-users-or-teams-exhibiting-stagnant-or-declining-ai-usage-over-time)
 
-b. Efficiency Gains
+### b. Efficiency Gains
 
 · Compare average task durations before and after AI adoption, by task_type and team.
 
@@ -32,7 +32,7 @@ b. Efficiency Gains
 
 [Answer](Q1_Technical_Analysis/B_Efficiency_Gains/readme.md#iii-highlight-task-types-with-minimal-or-no-performance-improvement)
 
-c. AI Quality Assessment
+### c. AI Quality Assessment
 
 · Report average AI prediction accuracy by task_type.
 
@@ -43,15 +43,15 @@ c. AI Quality Assessment
 [Answer](Q1_Technical_Analysis/C_AI_Quality_Assessment/readme.md#outliers-and-concerning-trends)  
 
 
-2. Commercial Insight
+## 2. Commercial Insight
 
 Provide thoughtful and commercially grounded answers to the following:
 
-a. Executive Summary (max 200 words)
+### a. Executive Summary (max 200 words)
 
 [Answer](Q2_Commercial_Insights/A_Executive_Summary/readme.md) 
 
-b. Commercial Interpretation
+### b. Commercial Interpretation
 
 · Based on your analysis, should the company continue investing in this AI tool?
 
@@ -65,7 +65,7 @@ b. Commercial Interpretation
 
 [Answer](Q2_Commercial_Insights/B_Commercial_Interpretation/readme.md#3-two-internal-process-changes-to-boost-roi-and-operational-value) 
 
-c. Stakeholder Communication
+### c. Stakeholder Communication
 
 · How would you explain your findings to non-technical stakeholders (e.g. Head of Sales or People)?
 
@@ -75,7 +75,7 @@ c. Stakeholder Communication
 
 [Answer](Q2_Commercial_Insights/C_Stakeholder_Communication/readme.md#2-what-metrics-or-visualisations-would-you-highlight-to-ensure-clarity-and-engagement)
 
-3. Bonus Technical Questions (Optional)
+## 3. Bonus Technical Questions (Optional)
 
 · How would you design a simple data pipeline to automate this reporting on a weekly basis?
 
